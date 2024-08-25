@@ -15,7 +15,7 @@ export default function Home() {
     setExpanded(id);
   };
   return (
-    <main className="flex  w-full md:w-[600px] flex-col items-center justifty-start bg-white rounded-md p-6 md:mt-40">
+    <main className="flex  w-full md:w-[600px] flex-col items-center justifty-start bg-white rounded-md p-6 mt-8 md:mt-40">
       <header className="w-full flex items-center justify-start gap-6">
         <Image
           src={"/assets/images/icon-star.svg"}
